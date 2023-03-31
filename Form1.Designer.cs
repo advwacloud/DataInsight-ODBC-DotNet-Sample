@@ -55,16 +55,15 @@
             this.txtDSN.Location = new System.Drawing.Point(130, 32);
             this.txtDSN.Margin = new System.Windows.Forms.Padding(4);
             this.txtDSN.Name = "txtDSN";
-            this.txtDSN.Size = new System.Drawing.Size(478, 29);
+            this.txtDSN.Size = new System.Drawing.Size(478, 34);
             this.txtDSN.TabIndex = 1;
-            this.txtDSN.Text = "dis-sa";
             // 
             // lblDSN
             // 
             this.lblDSN.AutoSize = true;
             this.lblDSN.Location = new System.Drawing.Point(59, 35);
             this.lblDSN.Name = "lblDSN";
-            this.lblDSN.Size = new System.Drawing.Size(43, 20);
+            this.lblDSN.Size = new System.Drawing.Size(54, 25);
             this.lblDSN.TabIndex = 3;
             this.lblDSN.Text = "DSN";
             // 
@@ -86,14 +85,13 @@
             this.txtSQL.Name = "txtSQL";
             this.txtSQL.Size = new System.Drawing.Size(478, 113);
             this.txtSQL.TabIndex = 6;
-            this.txtSQL.Text = "SELECT * FROM `main.d1`;";
             // 
             // lblSQL
             // 
             this.lblSQL.AutoSize = true;
             this.lblSQL.Location = new System.Drawing.Point(64, 98);
             this.lblSQL.Name = "lblSQL";
-            this.lblSQL.Size = new System.Drawing.Size(39, 20);
+            this.lblSQL.Size = new System.Drawing.Size(49, 25);
             this.lblSQL.TabIndex = 7;
             this.lblSQL.Text = "SQL";
             // 
@@ -119,7 +117,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(788, 592);
             this.Controls.Add(this.lblStatus);
